@@ -1,0 +1,5 @@
+steps:
+
+- id: "Iniciando docker compose"
+  name: 'gcr.io/sProject_ID/docker-compose'
+  args: ['-f', 'docker-compose.cloudbuid.yaml', 'up', '-d']
