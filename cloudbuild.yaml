@@ -1,3 +1,4 @@
+# just adding some comments
 steps:
   - id: "Iniciando docker compose"
     name: "gcr.io/$PROJECT_ID/docker-compose:1.25.5"
