@@ -23,7 +23,7 @@ steps:
     name: "gcr.io/cloud-builders/docker"
     args: ["exec", "-t", "app", "php", "/var/www/artisan", "migrate"]
 
-  - id: "PHP Unit (testes unitários"
+  - id: "PHP Unit (testes unitários)"
     name: "gcr.io/cloud-builders/docker"
     args: ["exec", "-t", "app", "php", "/var/www/vendor/bin/phpunit", "-c", "/var/www/phpunit.xml"]
 
